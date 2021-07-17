@@ -1,0 +1,31 @@
+.header {
+    height: 6vh;
+}
+
+.section {
+    height: 94vh;
+}
+
+.section .jumbotron{
+    height: 100%;
+}
+
+.jumbotron > .container h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.sign {
+    color: red;
+    vertical-align: middle;
+}

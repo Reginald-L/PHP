@@ -1,0 +1,31 @@
+.header {
+    height: 6vh;
+}
+
+.section {
+    height: 94vh;
+}
+
+.section .jumbotron{
+    height: 100%;
+}
+
+.jumbotron > .container h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.jumbotron > .container form {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.container a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+img {
+    width: 20px;
+    vertical-align: middle;
+}

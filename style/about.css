@@ -1,0 +1,27 @@
+.header {
+    height: 6vh;
+}
+
+.content .jumbotron{
+    height: 100%;    
+    margin: 0;
+}
+
+.jumbotron > .container h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container > .row:first-child a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+li {
+    list-style-type: circle;
+}
