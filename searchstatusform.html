@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/searchstatus.css">
+    <title>Search Status</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">
+                        STATUS
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="item">
+                            <a href="index.html">Return to Home page</a>
+                        </li>
+                        <li class="item">
+                            <a href="poststatusform.php">Post a new status</a>
+                        </li>
+                        <li class="item">
+                            <a href="about.html">About this assignment</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="section">
+        <div class="jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <h1>SEARCH STATUS</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <form class="form-inline" action="searchstatusprocess.php" method="get">
+                            <div class="form-group">
+                                <input class="form-control" type="text" name="Search" placeholder="Enter a status">
+                            </div>
+                            <div class="form-group">
+                                <input class="btn btn-primary" type="submit" value="View Status">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <a href="index.html"><img src="images/return.svg" alt="">Return to Home Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
